@@ -50,5 +50,4 @@ public class MovieTheatreService {
             throw new IllegalStateException("File not found!", e);
         }
     }
-
 }
