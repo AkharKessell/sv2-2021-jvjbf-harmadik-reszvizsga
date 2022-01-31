@@ -35,7 +35,7 @@ public class RentService {
 
     private void compareUser(User user) {
         if (users.stream().anyMatch(u -> u.getUserName().equals(user.getUserName()))) {
-            throw new UserNameIsAlreadyTakenException("User Name Is Already Taken!");
+            throw new UserNameIsAlreadyTakenException("Username is taken!");
         }
     }
 
